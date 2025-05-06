@@ -2,14 +2,24 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@langchain/core": "^0.3.42",
-    "langchain": "^0.3.19"
+    "@elastic/elasticsearch": "^8.17.1",
+    "@langchain/core": "^0.3.43",
+    "@langchain/openai": "^0.5.2",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "langchain": "^0.3.19",
+    "openai": "^4.91.1",
+    "pdfjs-dist": "^5.1.91",
+    "qdrant-client": "^0.0.1",
+    "sentence-splitter": "^5.0.0"
   }
 }
